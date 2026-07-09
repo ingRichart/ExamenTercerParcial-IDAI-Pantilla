@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Kart Stats Customizer</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Mario Kart Customizer</h1>
+    
+    <form id="kartForm">
+        <!-- 1. SELECT: Personajes -->
+        <div class="form-group">
+            <label for="character">Selecciona tu Personaje:</label>
+            <select id="character">
+                <option value="50">Mario (Base: 50)</option>
+                <option value="70">Bowser (Base: 70)</option>
+                <option value="30">Toad (Base: 30)</option>
+                <option value="55">Peach (Base: 55)</option>
+            </select>
+        </div>
+
+        <!-- 2. RADIOS: Neumáticos (Solo se puede elegir uno) -->
+        <div class="form-group">
+            <label>Tipo de Neumáticos:</label>
+            <div class="radio-group">
+                <label class="option-label">
+                    <input type="radio" name="tires" value="15" checked> Estándar (+15 Poder)
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="tires" value="25"> Neumáticos Slick (+25 Velocidad / -Peso)
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="tires" value="5"> Neumáticos de Madera (+5 Agilidad)
+                </label>
+            </div>
+        </div>
+
+        <!-- 3. CHECKBOXES: Mejoras / Alerones (Puedes elegir varios) -->
+        <div class="form-group">
+            <label>Mejoras del Kart (Acumulables):</label>
+            <div class="checkbox-group">
+                <label class="option-label">
+                    <input type="checkbox" name="upgrades" value="15"> Super Champiñón (+15)
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" name="upgrades" value="20"> Alerón Dorado (+20)
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" name="upgrades" value="-10"> Caparazón de Bowser (-10 Peso Extra)
+                </label>
+            </div>
+        </div>
+
+        <!-- 4. INPUT NUMBER: Nivel del Piloto -->
+        <div class="form-group">
+            <label for="driverLevel">Nivel de Motor (Multiplicador 1-5):</label>
+            <input type="number" id="driverLevel" min="1" max="5" value="1">
+        </div>
+    </form>
+
+    <!-- Marcador de Resultados -->
+    <div class="score-board">
+        <div class="score-title">Poder Total del Kart</div>
+        <div class="score-value" id="totalPower">0</div>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="powerBar"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

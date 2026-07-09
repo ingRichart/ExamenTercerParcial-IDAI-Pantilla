@@ -1,0 +1,107 @@
+        /* CSS3: Estilos temáticos de Mario Kart */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff1a1a, #0055ff);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            border: 4px solid #fbd000; /* Amarillo Mario */
+        }
+
+        h1 {
+            text-align: center;
+            color: #e52521;
+            text-shadow: 2px 2px #fbd000;
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select, input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #ccc;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .radio-group, .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .option-label {
+            display: flex;
+            align-items: center;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        .option-label input {
+            margin-right: 10px;
+        }
+
+        /* Marcador de Poder */
+        .score-board {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 25px;
+            border: 3px solid #43b047; /* Verde Luigi */
+        }
+
+        .score-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #a0a0a0;
+        }
+
+        .score-value {
+            font-size: 48px;
+            font-weight: bold;
+            color: #fbd000;
+            margin: 10px 0;
+        }
+
+        .progress-bar-container {
+            background-color: #444;
+            border-radius: 10px;
+            height: 20px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, #43b047, #fbd000, #e52521);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
