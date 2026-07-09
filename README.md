@@ -47,15 +47,15 @@ Actualiza el script para dar soporte completo a las nuevas opciones:
 
 ---
 
-## 📊 Rúbrica de Evaluación (100 Puntos Totales)
+## 📊 Rúbrica de Evaluación (60 Puntos Totales)
 
 | Criterio | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| **HTML - Elementos** | Inclusión correcta de Yoshi, Luigi, los 3 neumáticos, las 3 mejoras y cambio de límites en el input numérico. | **25 pts** |
-| **CSS3 - Flexbox** | Implementación correcta de las 2 columnas con Flexbox en los contenedores de radios y checkboxes, manteniendo la visualización limpia. | **20 pts** |
-| **JS - Operaciones** | El cálculo matemático procesa adecuadamente tanto los aumentos como las disminuciones de poder (valores negativos). | **20 pts** |
-| **JS - Validaciones** | El nivel de motor limita correctamente los valores entre 1 y 9 tanto en la interfaz como en el código lógico. | **15 pts** |
+| **HTML - Elementos** | Inclusión correcta de Yoshi, Luigi, los 3 neumáticos, las 3 mejoras y cambio de límites en el input numérico. | **15 pts** |
+| **CSS3 - Flexbox** | Implementación correcta de las 2 columnas con Flexbox en los contenedores de radios y checkboxes, manteniendo la visualización limpia. | **10 pts** |
+| **JS - Operaciones** | El cálculo matemático procesa adecuadamente tanto los aumentos como las disminuciones de poder (valores negativos). | **10 pts** |
+| **JS - Validaciones** | El nivel de motor limita correctamente los valores entre 1 y 9 tanto en la interfaz como en el código lógico. | **10 pts** |
 | **JS - Imágenes** | Al seleccionar a Yoshi o Luigi, la imagen del contenedor cambia adecuadamente sin romper la interfaz. | **10 pts** |
-| **GitHub Pages** | Repositorio actualizado con historial de commits claro y la página publicada y funcional en internet. | **10 pts** |
+| **GitHub Pages** | Repositorio actualizado con historial de commits claro y la página publicada y funcional en internet. | **5 pts** |
 
 ⚠️ **Nota importante:** El código no debe presentar errores en la consola del navegador (`F12`). Cualquier error de sintaxis que rompa el simulador penalizará la calificación final.
