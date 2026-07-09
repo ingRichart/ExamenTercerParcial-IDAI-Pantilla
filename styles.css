@@ -2,6 +2,8 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #1a1a1a, #333); /* Fondo más oscuro para contraste */
+            background: #000000 url(imagenes/mario-kart-world.jpg) no-repeat scroll center;
+
             color: #333;
             display: flex;
             justify-content: center;
