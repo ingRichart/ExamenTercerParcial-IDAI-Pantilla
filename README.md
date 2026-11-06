@@ -51,11 +51,22 @@ Actualiza el script para dar soporte completo a las nuevas opciones:
 
 | Criterio | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| **HTML - Elementos** | Inclusión correcta de Yoshi, Luigi, los 3 neumáticos, las 3 mejoras y cambio de límites en el input numérico. | **15 pts** |
-| **CSS3 - Flexbox** | Implementación correcta de las 2 columnas con Flexbox en los contenedores de radios y checkboxes, manteniendo la visualización limpia. | **10 pts** |
-| **JS - Operaciones** | El cálculo matemático procesa adecuadamente tanto los aumentos como las disminuciones de poder (valores negativos). | **10 pts** |
-| **JS - Validaciones** | El nivel de motor limita correctamente los valores entre 1 y 9 tanto en la interfaz como en el código lógico. | **10 pts** |
-| **JS - Imágenes** | Al seleccionar a Yoshi o Luigi, la imagen del contenedor cambia adecuadamente sin romper la interfaz. | **10 pts** |
+| **HTML - Personajes principales** | Estructura HTML correcta para el elemento o representación de los personajes | **4 pts** |
+| **HTML - Neumáticos** | Inclusión correcta de los 3 neumáticos (1 pt c/u) | **3 pts** |
+| **HTML - Mejoras / Upgrades** | Declaración en HTML de las 3 mejoras del juego/personaje (1 pt por cada mejora presente). | **3 pts** |
+| **HTML - Control de entrada / Input numérico** | Sintaxis y etiqueta HTML correctas. Modificación correcta de los atributos de límites en el input según las especificaciones requeridas. | **5 pts** |
+| **CSS3 - Flexbox** | Flexbox en Radios (2 col) | **4 pts** |
+| **CSS3 - Flexbox** | Flexbox en Checkboxes (2 col) | **4 pts** |
+| **CSS3 - Flexbox** | Limpieza y Alineación Visual | **2 pts** |
+| **JS - Operaciones** | Suma de aumentos (Positivos) | **4 pts** |
+| **JS - Operaciones** | Resta de disminuciones (Negativos) | **4 pts** |
+| **JS - Operaciones** | Resultado final y tipos de datos correctos| **2 pts** |
+| **JS - Validaciones** | Limites en Interfaz (HTML/Inputs) | **3 pts** |
+| **JS - Validaciones** | Validación condicional en código JS | **4 pts** |
+| **JS - Validaciones** | Validación condicional en código JS | **3 pts** |
+| **JS - Imágenes** | Captura del evento de selección. | **3 pts** |
+| **JS - Imágenes** | Cambio dinámico de ruta de imagen | **4 pts** |
+| **JS - Imágenes** | Adaptación dimensional sin romper interfaz | **3 pts** |
 | **GitHub Pages** | Repositorio actualizado con historial de commits claro y la página publicada y funcional en internet. | **5 pts** |
 
 ⚠️ **Nota importante:** El código no debe presentar errores en la consola del navegador (`F12`). Cualquier error de sintaxis que rompa el simulador penalizará la calificación final.
